@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NoopAnimationPlayer } from '@angular/animations';
 
 @Component({
   selector: 'app-home',
@@ -20,6 +21,9 @@ export class HomeComponent implements OnInit {
     };
     this.slides[2] = {
       src: './assets/img/zapatilla.jpeg',
+    };
+    this.slides[3] = {
+      src: './assets/img/producto.png',
     };
   }
 }

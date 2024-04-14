@@ -7,7 +7,7 @@ import { HomePageComponent } from './pages/home-page/home-page.component';
 import { FooterComponent } from './components/shared/footer/footer/footer.component';
 import { HeaderComponent } from './components/shared/header/header/header.component';
 import { NavbarComponent } from './components/shared/navbar/navbar/navbar.component';
-import { CarouselComponent, CarouselIndicatorsComponent, CarouselInnerComponent, CarouselItemComponent } from '@coreui/angular';
+import { CarouselComponent, CarouselIndicatorsComponent, CarouselInnerComponent, CarouselItemComponent} from '@coreui/angular';
 
 @NgModule({
   declarations: [

@@ -1,5 +1,4 @@
-<c-carousel class="slider">
-    <c-carousel-indicators class="indicators"></c-carousel-indicators>
+<c-carousel class="slider carousel-fade">
     <c-carousel-inner>
       <c-carousel-item *ngFor="let slide of slides">
         <img
@@ -9,6 +8,5 @@
           loading="lazy" />
       </c-carousel-item>
     </c-carousel-inner>
-    <c-carousel-control [routerLink] caption="Previous" direction="prev"></c-carousel-control>
-    <c-carousel-control [routerLink] caption="Next" direction="next"></c-carousel-control>
+    <c-carousel-indicators class="indicators"></c-carousel-indicators>
   </c-carousel>

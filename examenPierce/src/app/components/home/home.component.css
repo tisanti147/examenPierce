@@ -1,40 +1,38 @@
+/* Styling for carousel container */
+.slider {
+  position: relative;
+}
+
+/* Styling for carousel items */
+.c-carousel-item img {
+  width: 100%;
+  display: block;
+}
+
 /* Styling for carousel indicators */
 .indicators {
-    text-align: center; /* Center align indicators */
-  }
-  
-  /* Styling for carousel items */
-  .c-carousel-item img {
-    border-radius: 5px; /* Add border radius to images */
-  }
-  
-  /* Styling for active carousel indicator */
-  .c-carousel-indicators .active {
-    background-color: #007bff; /* Active indicator color */
-  }
-  
-  /* Styling for carousel caption */
-  .c-carousel-caption {
-    background-color: rgba(0, 0, 0, 0.5); /* Caption background color */
-    color: #fff; /* Caption text color */
-    padding: 10px; /* Caption padding */
-    border-radius: 5px; /* Add border radius to caption */
-  }
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  list-style: none;
+  padding: 0;
+}
 
-  /* Styling for carousel container */
-.slider {
-    position: relative;
-    width: 100%;
-    margin-bottom: 20px; /* Adjust margin as needed */
-  }
-  
-  /* Styling for carousel controls */
-  .c-carousel-control {
-    position: absolute;
-    bottom: 10px; /* Adjust distance from the bottom */
-    left: 50%;
-    transform: translateX(-50%);
-    color: #007bff; /* Control color */
-    font-size: 1.5rem; /* Control font size */
-    cursor: pointer; /* Change cursor to pointer */
-  }
+.indicators li {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.5);
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.indicators li.active {
+  background-color: #007bff;
+}
+
+:root {
+  --cui-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
