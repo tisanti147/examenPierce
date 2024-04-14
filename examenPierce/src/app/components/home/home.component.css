@@ -1,0 +1,40 @@
+/* Styling for carousel indicators */
+.indicators {
+    text-align: center; /* Center align indicators */
+  }
+  
+  /* Styling for carousel items */
+  .c-carousel-item img {
+    border-radius: 5px; /* Add border radius to images */
+  }
+  
+  /* Styling for active carousel indicator */
+  .c-carousel-indicators .active {
+    background-color: #007bff; /* Active indicator color */
+  }
+  
+  /* Styling for carousel caption */
+  .c-carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); /* Caption background color */
+    color: #fff; /* Caption text color */
+    padding: 10px; /* Caption padding */
+    border-radius: 5px; /* Add border radius to caption */
+  }
+
+  /* Styling for carousel container */
+.slider {
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px; /* Adjust margin as needed */
+  }
+  
+  /* Styling for carousel controls */
+  .c-carousel-control {
+    position: absolute;
+    bottom: 10px; /* Adjust distance from the bottom */
+    left: 50%;
+    transform: translateX(-50%);
+    color: #007bff; /* Control color */
+    font-size: 1.5rem; /* Control font size */
+    cursor: pointer; /* Change cursor to pointer */
+  }
